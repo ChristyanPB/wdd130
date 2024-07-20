@@ -1,0 +1,65 @@
+/* styles/styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.callout {
+  font-family: 'Lobster', display;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #396E94;
+    --secondary-color: #E7C24F;
+    --accent1-color: #A43312;
+    --accent2-color: #381D2A;
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+    --navigation-background-color: var(--primary-color);
+    --navigation-link-color: #ffffff;
+    --navigation-hover-link-color: var(--secondary-color);
+    --navigation-hover-background-color: var(--accent1-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p {
+    padding: 0;
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
